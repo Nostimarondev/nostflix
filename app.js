@@ -58,7 +58,9 @@ document.addEventListener("DOMContentLoaded", function () {
       ? "Categorías: " + pelicula.categorias.join(", ")
       : "Categoría: N/A";
 
-    modalDetalle.href = "detalle.php?id=" + pelicula.id;
+    if (modalDetalle) {
+      modalDetalle.href = "detalle.php?id=" + pelicula.id;
+    }
 
     currentPelicula = pelicula;
 
