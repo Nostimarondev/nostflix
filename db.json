@@ -1,0 +1,247 @@
+{
+    "peliculas": [
+        {
+            "id": "1",
+            "titulo": "Fiesta de nosti",
+            "descripcion": "FIESTA DE NOSTI, VIDA SIN PREOCUPACION, EL ES EL JEFE SIN LIMITACION, PURA VIDA LLENA DE EXPLOSION, DIDI ESTYLE CON PURA PASION",
+            "categoria": "Documental",
+            "portada": "1762820124_6330899.5_202509~1.JPG",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=eZXyn6vniBI&list=RDeZXyn6vniBI&start_radio=1",
+            "puntuacion": "8.8"
+        },
+        {
+            "id": "2",
+            "titulo": "Fiesta de nosti 2 (El regreso de nosti)",
+            "descripcion": "Ay no se",
+            "categoria": "Documental",
+            "portada": "1762820764_465153191_8672862022756971_7884130525390896299_n.jpg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=G5YZF-6eSb4&list=RDG5YZF-6eSb4&start_radio=1",
+            "puntuacion": "9.1"
+        },
+        {
+            "id": "3",
+            "titulo": "Crazy eli",
+            "descripcion": "El loco eliezer",
+            "categoria": "Comedia",
+            "portada": "1762823373_WhatsApp Image 2025-11-10 at 9.09.00 PM.jpeg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=4NO-fhaneV0",
+            "puntuacion": "5.6"
+        },
+        {
+            "id": "4",
+            "titulo": " Avengers: Infinity War",
+            "descripcion": "Puro coñazo",
+            "categoria": "Ciencia Ficción",
+            "portada": "1762823575_5.jpg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=6ZfuNTqbHE8",
+            "puntuacion": "9.5"
+        },
+        {
+            "id": "5",
+            "titulo": "Her",
+            "descripcion": "simpatico",
+            "categoria": "Romance",
+            "portada": "1762823690_1.jpeg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=dJTU48_yghs",
+            "puntuacion": "7.9"
+        },
+        {
+            "id": "6",
+            "titulo": "Kick-Ass 2",
+            "descripcion": "Sisas",
+            "categoria": "Acción",
+            "portada": "1762823817_11.jpg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=Td921lYSBIA",
+            "puntuacion": "9.8"
+        },
+        {
+            "id": "7",
+            "titulo": "Arcane",
+            "descripcion": "Arcane es una serie animada de fantasía y acción que se desarrolla en el universo del videojuego League of Legends. La trama se centra en el conflicto entre las ciudades opuestas de Piltover (la rica y utópica) y Zaun (el oprimido submundo), y narra los orígenes de dos hermanas, Vi y Jinx. La serie es elogiada por su impresionante animación, su guion complejo y sus personajes, y fue creada por Riot Games en colaboración con Fortiche Productions. ",
+            "categoria": "Ciencia Ficción",
+            "portada": "1762825642_1194463.jpg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=fXmAurh012s",
+            "puntuacion": "9.9"
+        },
+        {
+            "id": "9",
+            "titulo": "Interstellar",
+            "descripcion": "Interstellar es una película de ciencia ficción y drama de 2014, dirigida por Christopher Nolan, sobre un grupo de astronautas que viajan a través de un agujero de gusano para encontrar un nuevo hogar para la humanidad. Ambientada en un futuro donde la Tierra es inhabitable debido a una crisis ambiental, la misión de los astronautas es crucial para la supervivencia de la raza humana. ",
+            "categoria": "Ciencia Ficción",
+            "portada": "1762890915_550739.jpg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=LYS2O1nl9iM",
+            "puntuacion": "9.7"
+        },
+        {
+            "id": "10",
+            "titulo": "R.E.P.O",
+            "descripcion": "\"Repo\" tiene dos descripciones principales: una operación financiera de recompra y un repositorio de código en desarrollo de software. Una operación de recompra (repo) es la venta de un activo con el compromiso de recomprarlo en el futuro a un precio predeterminado, utilizada para obtener liquidez a corto plazo.",
+            "categoria": "Terror",
+            "portada": "1762898552_wp15292500-repo-wallpapers.jpg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=BIapNQeZDOU",
+            "puntuacion": "7.5"
+        },
+        {
+            "id": "11",
+            "titulo": "IT: Welcome to Derry",
+            "descripcion": "\"It: Bienvenidos a Derry\" es una serie de precuela ambientada en 1962 que expande el universo de IT, explorando un ciclo de muertes y fenómenos extraños en el pueblo de Derry, Maine, antes de los eventos de las películas.",
+            "categoria": "Terror",
+            "portada": "1762899136_it-welcome-to-derry-cast-4k-wallpaper-uhdpaper.com-59@5@j.jpg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=oKa6u7LT0qE",
+            "puntuacion": "8.5"
+        },
+        {
+            "id": "12",
+            "titulo": "Sharknado",
+            "descripcion": "Sharknado is a 2013 sci-fi disaster movie about a freak hurricane that creates waterspouts, which lift sharks out of the ocean and deposit them onto the streets of Los Angeles, where they then attack people. The film follows a group of survivors, led by surfer-turned-bar-owner Fin Shepard, as they fight to survive the flying sharks and the resulting chaos. The series is known for its over-the-top premise and is a cult classic due to its intentionally silly and over-the-top nature. ",
+            "categoria": "Ciencia Ficción",
+            "portada": "1762915591_Sharknado-1536x864.jpg",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=M-pXDoe5a0E",
+            "puntuacion": "5.2"
+        },
+        {
+            "id": "13",
+            "titulo": "Spider-Man: No Way Home",
+            "descripcion": "\"Spider-Man: No Way Home\" trata sobre cómo Peter Parker, desenmascarado por Mysterio, busca la ayuda del Doctor Strange para que el mundo olvide su identidad secreta. Sin embargo, el hechizo sale mal y abre el multiverso, trayendo a villanos de otras realidades. Peter debe enfrentarse a este peligro y descubrir qué significa realmente ser Spider-Man.",
+            "categoria": null,
+            "portada": "1764199662_Hombre_de_ara_a,_de_ninguna_manera_a_casa,_2022,_películas,_4k,_cartel Papel pintado_3840x2400[10wallpaper.com].jpg",
+            "url_trailer": "https:\/\/youtu.be\/JfVOs4VSpmA?si=Y5bWyi7e5i66hkQT",
+            "puntuacion": "8.7"
+        },
+        {
+            "id": "14",
+            "titulo": "Si",
+            "descripcion": "No",
+            "categoria": null,
+            "portada": "1766956448_Maxifest.png",
+            "url_trailer": "https:\/\/www.youtube.com\/watch?v=yg4ZSN0A83Q",
+            "puntuacion": "8.5"
+        },
+        {
+            "id": "15",
+            "titulo": "House of the Dragon",
+            "descripcion": "House of the Dragon is an HBO fantasy drama that serves as a prequel to Game of Thrones. Set nearly 200 years earlier, it chronicles the decline and bloody civil war of House Targaryen at the peak of its power, sparked by a bitter battle of succession for the Iron Throne.",
+            "categoria": null,
+            "portada": "1782952253_1408189.jpg",
+            "url_trailer": "https:\/\/youtu.be\/zA-Kz3tLTsA?si=O3PUKxWWFoI0gb6X",
+            "puntuacion": "9.0"
+        }
+    ],
+    "categorias": [
+        {
+            "id": "1",
+            "nombre": "Acción"
+        },
+        {
+            "id": "2",
+            "nombre": "Comedia"
+        },
+        {
+            "id": "3",
+            "nombre": "Drama"
+        },
+        {
+            "id": "4",
+            "nombre": "Terror"
+        },
+        {
+            "id": "5",
+            "nombre": "Romance"
+        },
+        {
+            "id": "6",
+            "nombre": "Ciencia Ficción"
+        },
+        {
+            "id": "7",
+            "nombre": "Documental"
+        }
+    ],
+    "pelicula_categoria": [
+        {
+            "id": "1",
+            "id_pelicula": "1",
+            "id_categoria": "7"
+        },
+        {
+            "id": "2",
+            "id_pelicula": "2",
+            "id_categoria": "7"
+        },
+        {
+            "id": "3",
+            "id_pelicula": "3",
+            "id_categoria": "2"
+        },
+        {
+            "id": "4",
+            "id_pelicula": "4",
+            "id_categoria": "6"
+        },
+        {
+            "id": "5",
+            "id_pelicula": "5",
+            "id_categoria": "5"
+        },
+        {
+            "id": "6",
+            "id_pelicula": "6",
+            "id_categoria": "1"
+        },
+        {
+            "id": "7",
+            "id_pelicula": "7",
+            "id_categoria": "6"
+        },
+        {
+            "id": "8",
+            "id_pelicula": "9",
+            "id_categoria": "6"
+        },
+        {
+            "id": "9",
+            "id_pelicula": "10",
+            "id_categoria": "4"
+        },
+        {
+            "id": "10",
+            "id_pelicula": "11",
+            "id_categoria": "4"
+        },
+        {
+            "id": "11",
+            "id_pelicula": "12",
+            "id_categoria": "6"
+        },
+        {
+            "id": "12",
+            "id_pelicula": "13",
+            "id_categoria": "1"
+        },
+        {
+            "id": "13",
+            "id_pelicula": "13",
+            "id_categoria": "6"
+        },
+        {
+            "id": "14",
+            "id_pelicula": "14",
+            "id_categoria": "6"
+        },
+        {
+            "id": "15",
+            "id_pelicula": "14",
+            "id_categoria": "2"
+        },
+        {
+            "id": "16",
+            "id_pelicula": "15",
+            "id_categoria": "1"
+        },
+        {
+            "id": "17",
+            "id_pelicula": "15",
+            "id_categoria": "6"
+        }
+    ]
+}

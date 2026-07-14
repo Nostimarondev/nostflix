@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostflix - Portfolio Categorías</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+<div class="navbar" style="z-index:999">
+    <div class="navbar-container">
+        <div class="logo-container">
+           <img style="height:30px" src="public/img/nostflix.png" />
+        </div>
+        <div class="menu-container">
+            <ul class="menu-list">
+                <li class="menu-list-item"><a href="index.html" style="color:inherit; text-decoration:none;">Home</a></li>
+                <li class="menu-list-item active"><a href="categorias.html" style="color:inherit; text-decoration:none;">Movies / Categories</a></li>
+                <li class="menu-list-item">Series</li>
+                <li class="menu-list-item">Popular</li>
+                <li class="menu-list-item">Trends</li>
+            </ul>
+        </div>
+        <div class="profile-container">
+            <img class="profile-picture" src="public/img/default-avatar.png" onerror="this.src='https://ui-avatars.com/api/?name=Portfolio+Mode&background=e50914&color=fff'">
+            <div class="profile-text-container">
+                <span class="profile-text">Portfolio Mode</span>
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar">
+    <i class="left-menu-icon fas fa-search" id="sidebar-search"></i>
+    <a href="index.html" class="menu-list-item">
+        <i class="left-menu-icon fas fa-home"></i>
+    </a>
+    <a href="categorias.html" class="menu-list-item">
+        <i class="left-menu-icon fas fa-film"></i> 
+    </a>
+    <i class="left-menu-icon fas fa-bookmark"></i>
+    <i class="left-menu-icon fas fa-tv"></i>
+    <i class="left-menu-icon fas fa-hourglass-start"></i>
+</div>
+
+<!-- CONTENIDO DESTACADO 2 -->
+<div id="featured-category"></div>
+
+<div class="container">
+    <div class="content-container">
+        <h1 class="movie-list-title">CATEGORÍAS</h1>
+        <div id="categories-page-container">
+            <!-- Inject via JS -->
+        </div>
+    </div>
+</div>
+
+<!-- MODAL GLOBAL -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+            <div class="modal-info">
+                <h2 id="modal-title"></h2>
+                <p id="modal-desc"></p>
+                <p id="modal-rating"></p>
+                <p id="modal-category" style="margin-top:10px;font-style:italic;color:white;font-size:16px;text-shadow:0px 0px 6px black;"></p>
+                <div class="modal-buttons">
+                    <button id="ver-trailer-btn" class="btn-ver-trailer">
+                        <i class="fa-brands fa-youtube"></i> Ver Tráiler
+                    </button>
+                </div>
+            </div>
+            <div id="modal-trailer-container" class="modal-trailer" style="display: none;"></div>
+            <h3 class="otras-title">Otras películas</h3>
+            <div class="modal-other-wrapper">
+                <button class="modal-other-arrow left">‹</button>
+                <div id="modal-other" class="modal-other"></div>
+                <button class="modal-other-arrow right">›</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PANEL LATERAL DE BÚSQUEDA -->
+<div id="searchOverlay" class="search-overlay"></div>
+<div id="searchSidebar" class="search-sidebar">
+    <div class="search-sidebar-content">
+        <span id="closeSearch" class="close-search">&times;</span>
+        <h2>Buscar Películas</h2>
+        <input type="text" id="searchInput" placeholder="Escribe un título..." />
+
+        <h3>Categorías</h3>
+        <div class="search-categories" id="search-categories-filters">
+            <button class="category-btn active" data-category="all">Todas</button>
+            <!-- Inject via JS -->
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+<script src="assets/js/render.js"></script>
+
+</body>
+</html>
