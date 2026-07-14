@@ -35,12 +35,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 
+// Global variable to store movie data for the modal
+window.movieDataMap = {};
+
 function getOtrasPeliculas(peliculas, excludeId) {
     return peliculas.filter(p => p.id !== excludeId).slice(0, 10);
 }
 
 function createMovieItemHTML(p, otrasPeliculas) {
-    const jsonStr = JSON.stringify({
+    // Store data in global map to avoid inline JSON stringification issues in HTML attributes
+    window.movieDataMap[p.id] = {
         id: p.id,
         titulo: p.titulo,
         descripcion: p.descripcion,
@@ -49,14 +53,14 @@ function createMovieItemHTML(p, otrasPeliculas) {
         trailer: p.url_trailer || "",
         puntuacion: p.puntuacion,
         otras: otrasPeliculas
-    }).replace(/'/g, "&#39;").replace(/"/g, "&quot;");
+    };
 
     return `
         <img class="movie-list-item-img" src="uploads/${p.portada}" alt="${p.titulo}">
         <span class="movie-list-item-title">${p.titulo}</span>
         <p class="movie-list-item-desc">${p.descripcion}</p>
 
-        <button class="movie-list-item-button" onclick='window.openModal(${jsonStr})'>
+        <button class="movie-list-item-button" onclick="window.openModal(window.movieDataMap[${p.id}])">
             Ver Trailer / Más Info
         </button>
     `;
